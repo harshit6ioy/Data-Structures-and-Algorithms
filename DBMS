@@ -1,0 +1,39 @@
+Data Base Management System
+1.E-R diagram
+2.Cardinality: Number of rows in a relational instance.
+why we do normalization
+Insertion Anomaly → Cannot insert data without other unnecessary data
+Update Anomaly → Same data must be updated in multiple places
+Deletion Anomaly → Deleting one record may remove important data unintentionally
+Functional dependency kya hota h
+AAgar ek functional dependency h RollNumber->name ucka ye matlab h ki agar apko roll number pta hoga tau aap naam bhi bta sakte hau.
+Super Key: Any set of attributes that uniquely identifies a record.\
+Candidate Key: A super key with no unnecessary attributes.
+Primary Key:One candidate key choosen as the main identifier.
+First Normal Form:
+1.No repeating columns or groups.
+w.Each cell must contain a single value not a list.
+For second normal form,there should be no partial dependency. Anys ubset of a candidate should not determine a non-prime attribute.
+For third normal form,there should not be any transitive dependency.
+For BCNF, the determinant should be a super key.
+Sharding is the process of splitting the database into several parts and store them on different servers.
+or
+Sharding is the process of horizontally partitioning a database  into smaller pieces stored across multiple servers to improve scalability abnd performane.
+B tree uses top-down search and mays top at any node, while B+ tree always use top-down research to leaf nodes and then use sequential search through linked leaves.
+There are four types of Structured query language:
+1.Data Definition language: Used to create or alter the table.
+2.Data Manipulation Language
+3.Transaction Control Language.
+4.Embeeded and Dynamic SQL.
+select DISTINCT customer_name from depositor;
+where
+between
+union
+select distinct depositor.customer_name,account.balance where depositor.account_no=account.account_no
+join
+natural_join
+select avg(salary) as avgsal
+1.Dirty read problem
+2.Unrepeatable read problem
+3.Lost Update Problem
+4.Phantom read problem.
