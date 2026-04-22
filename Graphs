@@ -1,0 +1,11 @@
+Graph where two adjacent nodes does not have same color.
+For example Roll no1 and Rollno 2 does not have exactly same question paper.
+But one thing more,where we can color the graph with just two color is called bipartitle graph.
+Linear graph with no cycles is always a bipartitle graph.
+Any graph with even cycle length is also a bipartite graph.
+Any graph with odd cycle length can never be bipartite.
+To find a cycle in a directed graph,
+we generally use two arrays visited[] and pathvisited[].One is to track visited nodes and the other one is to track the current dfs
+path visited nodes.
+What is a safe node?
+A node from which every possible path eventually leads to a termination node.(A node which has no outgoing edges).
