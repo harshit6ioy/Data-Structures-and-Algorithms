@@ -1,0 +1,20 @@
+AWS EC2 Api
+An AWS EC2 Api is a programmatic interface provided by AWS that allows you to control and manage EC2 instances using
+code instead of the web console.
+Using three ways AWS API we can use:
+1.AWS CLI
+2.AWS API(For eg Python)
+3.AWS CFT(Cloud Formation Template)
+4.Terraform(It is an opens ourcxe tool used for Infrastructure as a Code)- It lets you manage cloud infrastructure 
+using configuration file instead of manual setup)
+5.AWS CDK
+Terraform is generally preffered when you are using hybrid cloud model.
+ls 
+ls -ltr
+touch
+pwd
+vi
+cat
+free -m
+nproc
+top
